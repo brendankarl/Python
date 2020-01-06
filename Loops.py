@@ -56,4 +56,6 @@ while number < 10:
     number += 1
     if number == 7:
         print('*CONTINUE*')
-        continue  
+        continue 
+
+    
