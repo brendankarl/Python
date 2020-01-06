@@ -17,3 +17,19 @@ for name in names:
         print('H')
     else:
         print("Blah!")
+
+#If statement with and, if product1 sales is greater than that of product1 and product2 then print the statement
+product1sales = 100
+product2sales = 200
+product3sales = 300
+
+if product3sales > product2sales and product1sales:
+    print("product3sales is is greater than product1sales and product2sales")
+
+#Or statement, if product2sales is greater than product1sales or product3sales print true
+product1sales = 100
+product2sales = 200
+product3sales = 300
+
+if product2sales > product1sales or product3sales:
+    print("true")
