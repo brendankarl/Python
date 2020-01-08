@@ -59,7 +59,7 @@ usersJSON = """{
 }"""
 
 #Convert to Python dictionary and do stuff
-users = json.loads(userJSON)
+users = json.loads(usersJSON)
 users["users"][1]
 
 #Convert from Python (dict) to JSON (str) and print
