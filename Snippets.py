@@ -23,3 +23,12 @@ webbrowser.open('https://www.bing.co.uk')
 import pyperclip
 pyperclip.paste()
 pyperclip.copy('This is a test')
+
+#String formatting
+age = 38
+gender = "male"
+text = "my age is {a}, my gender is {g}".format(a=age,g=gender)
+print(text)
+
+text = "my age is {0}, my gender is {1}".format(age,gender) #using different placeholder values
+print(text)
