@@ -32,3 +32,8 @@ print(text)
 
 text = "my age is {0}, my gender is {1}".format(age,gender) #using different placeholder values
 print(text)
+
+#String replace
+string = "hello world"
+newstring = string.replace("hello","hi")
+print(newstring)
