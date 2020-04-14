@@ -5,13 +5,13 @@ class Person:
         self.gender = gender
     
     def printperson(self):
-        print("Hello" + self.name)
+        print("Hello " + self.name)
 
 #Create object
 p1 = Person("Brendan",38,"male")
 
 #Call printperson() function to print name
-printperson(p1)
+p1.printperson()
 #Change age to 39
 p1.age = 39
 p1.age
