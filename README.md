@@ -1,3 +1,2 @@
 # Python-Samples
-A collection of sample Python scripts that demonstrate how to perform common tasks.
-
+A collection of sample scripts that demonstrate how to perform common tasks in Python.
