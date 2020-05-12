@@ -15,3 +15,31 @@ def monthswitch(value):
         12: "December"
         }
     print(months.get(value, "Invalid Month"))
+
+#monthswitch(value)
+
+#Use a dictionary that calls a function
+def great():
+    return "Great"
+
+def good():
+    return "Good"
+
+def average():
+    return "Average"
+
+def bad():
+    return "Bad"
+ 
+switcher = {
+        0: great,
+        1: good,
+        2: average,
+        3: bad
+    }
+ 
+def rating(value):
+    func = switcher.get(value, "nothing")
+    return func()
+
+#rating(value)
