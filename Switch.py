@@ -39,7 +39,7 @@ switcher = {
     }
  
 def ratingswitch(value):
-    func = switcher.get(value, "nothing")
+    func = switcher.get(value)
     return func()
 
 #ratingswitch(value)
