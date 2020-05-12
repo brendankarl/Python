@@ -38,8 +38,8 @@ switcher = {
         3: bad
     }
  
-def rating(value):
+def ratingswitch(value):
     func = switcher.get(value, "nothing")
     return func()
 
-#rating(value)
+#ratingswitch(value)
